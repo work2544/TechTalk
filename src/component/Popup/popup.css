@@ -1,0 +1,37 @@
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.my-popup-content {
+  margin: auto;
+  background: rgb(100, 200, 100);
+  width: 50%;
+  padding: 5px;
+}
+.my-popup-arrow {
+  color: rgb(255, 255, 255);
+}
+
+.my-popup-overlay {
+  background: rgba(100, 200, 100, 0.5);
+  width: 50%;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  font-family:"Mali"
+}
